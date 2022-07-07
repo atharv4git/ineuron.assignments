@@ -8,7 +8,7 @@ git add .
 sleep 1
 set /p message="enter message: "
 echo "commiting repo"
-git commit -m %message%
+git commit -m "%message% added"
 echo "pushing commits to origin - main branch"
 git push origin main
 echo "Done!"
