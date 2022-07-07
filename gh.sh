@@ -8,7 +8,7 @@ git status
 echo "enter you message:"
 read message
 echo "commiting to the repo"
-git commit -m $message
+git commit -m "$message added!"
 echo "pushing to the origin"
 git push origin main
 echo "done!"
